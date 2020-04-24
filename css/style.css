@@ -1,0 +1,83 @@
+/*Codigo de estilo en css3 estilos en cascada*/
+
+/* body margin, padding y estilo de border */
+*, body{
+    /*  */
+    padding: 0 !important;
+    margin: 0 !important;
+    /* compatibilidad */
+    box-sizing: border-box;
+    /* edge - safari */
+    -webkit-box-sizing: border-box;
+    /*mozilla - firefox*/
+    -moz-box-sizing: border-box;
+    /*opera*/
+    -o-box-sizing: border-box;
+}
+
+
+/* estilos de menu social bar */
+.red{
+    position: fixed !important;
+    top: 200px !important;
+    z-index:100 !important;
+    left:0 !important;
+}
+.itemsocial{
+    color: #ffffff;
+    text-decoration: none !important;
+}
+#facebook{
+    background: #3b5998;
+    color: #ffffff !important;
+    padding: 15px 20px !important;
+    transition: all .4s ease;
+    width: 55px !important;
+}
+#instagram{
+    background: #e95950;
+    color: #ffffff !important;
+    padding: 15px 20px !important;
+    transition: all .4s ease;
+    width: 55px !important;
+}
+#twitter{
+    background: #55acee;
+    color: #ffffff;
+    padding: 15px 20px !important;
+    transition: all .4s ease;
+    width: 55px !important;
+}
+#linkedin{
+    background: #007bb5;
+    color: #ffffff;
+    padding: 15px 20px !important;
+    transition: all .4s ease;
+    width: 55px !important;
+}
+#codepen{
+    background: #000000;
+    color: #ffffff;
+    padding: 15px 20px !important;
+    transition: all .4s ease;
+    width: 55px !important;
+}
+#facebook:hover{
+    padding: 15px 50px !important;
+}
+#instagram:hover{
+    padding: 15px 50px !important;
+}
+#twitter:hover{
+    padding: 15px 50px !important;
+}
+#linkedin:hover{
+    padding: 15px 50px !important;
+}
+#codepen:hover{
+    padding: 15px 50px !important;
+
+}
+
+
+
